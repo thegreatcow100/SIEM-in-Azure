@@ -1,4 +1,4 @@
-# Security Information and Event Management in Azure
+# Security Information and Event Management in Microsoft Azure
 
 # Introduction
 
