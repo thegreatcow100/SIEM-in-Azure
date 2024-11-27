@@ -10,23 +10,23 @@ In this project, I built a honeypot using a virtual machine in Microsoft Azure. 
 
 - **[Azure Virtual Machines (VM)](https://learn.microsoft.com/en-us/azure/virtual-machines/overview) :** Host honeypot.  
 
-- **[Windows 10](https://www.microsoft.com/en-us/software-download/windows10):** Operating system utilized in VM. 
+- **[Windows 10](https://www.microsoft.com/en-us/software-download/windows10) :** Operating system utilized in VM. 
 
-- **[Azure Network Security Groups](https://learn.microsoft.com/en-us/azure/virtual-network/network-security-groups-overview):** Configure firewall security rules for VM port traffic.  
+- **[Azure Network Security Groups](https://learn.microsoft.com/en-us/azure/virtual-network/network-security-groups-overview) :** Configure firewall security rules for VM port traffic.  
 
-- **[Azure Log Analytics Workspace](https://learn.microsoft.com/en-us/azure/azure-monitor/logs/log-analytics-workspace-overview):** Collect failed connection logs from the VM event viewer.  
+- **[Azure Log Analytics Workspace](https://learn.microsoft.com/en-us/azure/azure-monitor/logs/log-analytics-workspace-overview) :** Collect failed connection logs from the VM event viewer.  
 
-- **[Microsoft Defender](https://learn.microsoft.com/en-us/azure/defender-for-cloud/defender-for-cloud-introduction):** Configured security for cloud resources.
+- **[Microsoft Defender](https://learn.microsoft.com/en-us/azure/defender-for-cloud/defender-for-cloud-introduction) :** Configured security for cloud resources.
 
-- **[Microsoft Sentinel](https://learn.microsoft.com/en-us/azure/sentinel/overview?tabs=azure-portal):** Visualize collected data from Log Analytics Workspace into an attack map.
+- **[Microsoft Sentinel](https://learn.microsoft.com/en-us/azure/sentinel/overview?tabs=azure-portal) :** Visualize collected data from Log Analytics Workspace into an attack map.
   
-- **[Windows Remote Desktop](https://support.microsoft.com/en-us/windows/how-to-use-remote-desktop-5fe128d5-8fb1-7a23-3b8a-41e636865e8c):** Access VM as administrator.  
+- **[Windows Remote Desktop](https://support.microsoft.com/en-us/windows/how-to-use-remote-desktop-5fe128d5-8fb1-7a23-3b8a-41e636865e8c) :** Access VM as administrator.  
 
-- **[Event Viewer](https://learn.microsoft.com/en-us/shows/inside/event-viewer):** View failed connections to virtualized Windows machines in real-time.  
+- **[Event Viewer](https://learn.microsoft.com/en-us/shows/inside/event-viewer) :** View failed connections to virtualized Windows machines in real-time.  
 
-- **[Microsoft Powershell](https://learn.microsoft.com/en-us/powershell/scripting/overview?view=powershell-7.4&viewFallbackFrom=powershell-7.3):** Used Powershell script to automate log collection.  
+- **[Microsoft Powershell](https://learn.microsoft.com/en-us/powershell/scripting/overview?view=powershell-7.4&viewFallbackFrom=powershell-7.3) :** Used Powershell script to automate log collection.  
 
-- **[Geolocation API](https://ipgeolocation.io/documentation.html):** Gather location data of bad actors based on IP address.  
+- **[Geolocation API](https://ipgeolocation.io/documentation.html) :** Gather location data of bad actors based on IP address.  
  
 ---
 
