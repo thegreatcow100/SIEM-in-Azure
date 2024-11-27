@@ -54,11 +54,15 @@ The script uses a geolocation API to take logs and find their longitude and lati
 
 ## Attack Map Before  
 
+![Map before](https://github.com/user-attachments/assets/071e1117-8aa2-4cf4-bc84-acba40656d2c)
+
 This attack map indicates the RDP failures over a 24-hour timeframe. In this timeframe, there were approximately **9.5k failed RDP connections** to the network. Despite being a network unaffiliated with any specific company, it still evidenced a significant volume of traffic. This underscores the constant efforts of actors attempting to breach systems at all hours of the day.
 
 ---
 
 ## Attack Map After
+
+![Map after](https://github.com/user-attachments/assets/8836953d-5d63-4a7a-b910-1f645c47597b)
 
 This attack map demonstrates the RDP failures over a 24-hour timeframe after hardening. In this timeframe, there were approximately **90 failed RDP connections** to the network. Although a few bad actors attempted to force their way into the system, implementing system-hardening measures made a significant impact.
 
@@ -68,9 +72,7 @@ There was a **99.05% decrease in failed connection attempts** after system harde
 
 ## Reflection
 
-This project was a joy to complete. As a novice in the cybersecurity field, it was a wonderful opportunity to apply newfound skills gained from courses and research to create this project. Working inside a cloud environment for the first time was a daunting task, as there were many resources that I had to learn from scratch. 
-
-Understanding the tools in the cloud taught me a foundational skillset that I can apply to other cloud platforms in the future. Observing bad actors attempting to attack your machine in real-time and watching the attack map develop over time was truly exciting. After system hardening and recollecting the data, the drastic decrease in attack traffic was rewarding. Given that some traffic still entered, it emphasizes the opportunity to further improve my skills and discover more ways to reduce the attack surface of my VM.
+This project was a joy to complete. As a novice in the cybersecurity field, it was a wonderful opportunity to apply newfound skills gained from courses and research to create this project. Working inside a cloud environment for the first time was a daunting task, as there were many resources that I had to learn from scratch. Understanding the tools in the cloud taught me a foundational skillset that I can apply to other cloud platforms in the future. Observing bad actors attempting to attack your machine in real-time and watching the attack map develop over time was truly exciting. After system hardening and recollecting the data, the drastic decrease in attack traffic was rewarding. Given that some traffic still entered, it emphasizes the opportunity to further improve my skills and discover more ways to reduce the attack surface of my VM.
 
 ---
 
